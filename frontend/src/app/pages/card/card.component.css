@@ -2,3 +2,24 @@
     color :palevioletred;
     cursor : pointer;
 }
+.page-container{
+    /* background:#e5e5e5; */
+    padding-left:200px
+}
+.row {
+    padding-left:200px
+}
+@media (max-width:991px){
+    .page-container{
+        position:relative;
+        top:88px;
+        padding-left:0
+    }
+}
+.logo-image{
+    height: 90px;
+    padding-bottom: 25px;
+}
+.title-style{
+    font-family: 'Times New Roman', Times, serif;
+}

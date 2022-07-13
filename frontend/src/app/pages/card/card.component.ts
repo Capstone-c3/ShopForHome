@@ -66,7 +66,7 @@ export class CardComponent implements OnInit, OnDestroy {
       this.productService.getAllInPage(+page, +size)
         .subscribe(page => {
           this.page = page;
-          this.title = 'Get Whatever You Want!';
+          this.title = 'Explore trending categories on SFH';
         });
     } else { //  /category/:id
       const type = this.route.snapshot.url[1].path;

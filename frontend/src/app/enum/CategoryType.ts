@@ -1,3 +1,3 @@
 export enum CategoryType {
-    "Statues", " Wall Sculptures", "Paintings", "Artificial Flowers","Wall Shelves"
+    "Statues", "Wall Scluptures", "Paintings", "Artificial Flowers","Wall Shelves"
 }
